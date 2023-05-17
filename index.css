@@ -1,0 +1,102 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+}
+.logo {
+  height: 5vh;
+  width: 5vw;
+  margin-left: 20px;
+}
+.text {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 10rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95vw;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  /* margin-top: 10px; */
+}
+input {
+  padding: 12px 70px;
+  padding-right: 15rem;
+  border-radius: 20rem;
+}
+
+i {
+  padding: 5px;
+  display: inline-block;
+}
+.list {
+  padding: 20px;
+  border-top:1px solid rgb(201, 200, 200);
+}
+ul {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 10px;
+  padding: 30px;
+}
+
+.image {
+  background-image: url(./image.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70vh;
+  width: 100vw;
+}
+
+.course-quote {
+  background-color: #ffffff;
+  position: absolute;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  padding: 2rem;
+  line-height: 2rem;
+  box-shadow: rgba (4, 4, 4, 0.707) 0px 2px 8px 0px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+hr {
+  width: 20px;
+  height: 1px;
+  background-color: black;
+}
+main {
+  display: flex;
+  padding: 0%;
+  justify-content: space-between;
+  margin: 1.5%;
+}
+
+#underline {
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.underline{
+  color: blueviolet;
+  text-decoration:underline;
+  
+}
